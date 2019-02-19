@@ -4,6 +4,14 @@
 
 This generator can be used to create IEEE 802 conform local administered MAC addresses
 
+## Usage
+
+```
+go get github.com/cseeger-epages/mac-gen-go
+```
+
+see [examples](https://github.com/cseeger-epages/mac-gen-go/examples) for more information
+
 ## Background
 
 ### general stuff
