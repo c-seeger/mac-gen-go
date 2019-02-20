@@ -69,7 +69,7 @@ func CalculateNICSufix(ip net.IP) (string, error) {
 	// we actually need to generate the (n[1]+1)*(n[2]+1)*(n[3]+1)-1 mac address
 	// why the +1, simply because we do count X.0.0.0 as the first address which is
 	// 1*1*1 and X.255.255.255 the last which is 256*256*256 = 16^8 = 2^24
-	// but now we have to substract by one since we count from 0 to (2^24)-1 and not from
+	// but now we have to subtract by one since we count from 0 to (2^24)-1 and not from
 	// 1 to 2^24
 
 	hex := fmt.Sprintf("%06x\n", (n[1]+1)*(n[2]+1)*(n[3]+1)-1)

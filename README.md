@@ -1,4 +1,7 @@
 [![Built with Mage](https://magefile.org/badge.svg)](https://magefile.org)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-green.svg)](https://godoc.org/github.com/cseeger-epages/mac-gen-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cseeger-epages/mac-gen-go)](https://goreportcard.com/report/github.com/cseeger-epages/mac-gen-go)
+
 
 # A IEEE 802 MAC address generator
 

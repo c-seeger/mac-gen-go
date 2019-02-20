@@ -16,8 +16,8 @@ type TestPrefixValues struct {
 
 func TestGenerateRandomLocalPrefix(t *testing.T) {
 	TestValues := []TestPrefixValues{
-		TestPrefixValues{true, false},
-		TestPrefixValues{false, true},
+		{true, false},
+		{false, true},
 	}
 
 	for _, test := range TestValues {
@@ -53,11 +53,11 @@ type TestSufixValues struct {
 func TestCalculateNICSufix(t *testing.T) {
 
 	TestValues := []TestSufixValues{
-		TestSufixValues{net.ParseIP("10.0.0.0"), "00:00:00", nil},
-		TestSufixValues{net.ParseIP("10.255.255.255"), "ff:ff:ff", nil},
-		TestSufixValues{net.ParseIP("192.168.12.127"), "04:4a:7f", nil},
-		TestSufixValues{net.ParseIP("::1"), "", fmt.Errorf("ip is not v4")},
-		TestSufixValues{net.ParseIP("foo"), "", fmt.Errorf("ip is not v4")},
+		{net.ParseIP("10.0.0.0"), "00:00:00", nil},
+		{net.ParseIP("10.255.255.255"), "ff:ff:ff", nil},
+		{net.ParseIP("192.168.12.127"), "04:4a:7f", nil},
+		{net.ParseIP("::1"), "", fmt.Errorf("ip is not v4")},
+		{net.ParseIP("foo"), "", fmt.Errorf("ip is not v4")},
 	}
 
 	for _, test := range TestValues {
