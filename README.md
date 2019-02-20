@@ -1,3 +1,5 @@
+[![Built with Mage](https://magefile.org/badge.svg)](https://magefile.org)
+
 # A IEEE 802 MAC address generator
 
 ## Purpose
