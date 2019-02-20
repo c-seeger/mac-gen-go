@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-// GenerateRandomLocalMacPrefix generates a random LAA mac address
+// GenerateRandomLocalMacPrefix generates a random local administered mac address
 // unicast true sets the unicast bit
 // unicast false sets the multicast bit
 func GenerateRandomLocalMacPrefix(unicast bool) string {
