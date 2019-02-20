@@ -1,7 +1,7 @@
 /*
 Package macgen lets you generate local adminstered mac address prefixes and calculate unique mac sufix per ip address
 
-package main
+	package main
 
 	import (
 		"fmt"
