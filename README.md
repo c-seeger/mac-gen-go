@@ -43,6 +43,7 @@ func main() {
 }
 
 ```
+see [examples](https://github.com/cseeger-epages/mac-gen-go/examples) for more information
 
 ### testing and coverage
 
@@ -50,8 +51,6 @@ func main() {
 mage test
 mage coverage
 ```
-
-see [examples](https://github.com/cseeger-epages/mac-gen-go/examples) for more information
 
 ## Background
 
