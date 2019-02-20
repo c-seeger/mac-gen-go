@@ -12,6 +12,13 @@ This generator can be used to create IEEE 802 conform local administered MAC add
 go get github.com/cseeger-epages/mac-gen-go
 ```
 
+### testing and coverage
+
+```
+mage test
+mage coverage
+```
+
 see [examples](https://github.com/cseeger-epages/mac-gen-go/examples) for more information
 
 ## Background
