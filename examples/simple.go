@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	gm "github.com/cseeger-epages/mac-gen-go"
+	gm "github.com/c-seeger/mac-gen-go"
 )
 
 func main() {

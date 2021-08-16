@@ -1,9 +1,10 @@
-[![Built with Mage](https://magefile.org/badge.svg)](https://magefile.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-green.svg)](https://godoc.org/github.com/cseeger-epages/mac-gen-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cseeger-epages/mac-gen-go)](https://goreportcard.com/report/github.com/cseeger-epages/mac-gen-go)
-
-
 # A IEEE 802 MAC address generator
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VBXHBYFU44T5W&source=url)
+[![Built with Mage](https://magefile.org/badge.svg)](https://magefile.org)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-green.svg)](https://godoc.org/github.com/c-seeger/mac-gen-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/c-seeger/mac-gen-go)](https://goreportcard.com/report/github.com/c-seeger/mac-gen-go)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/c-seeger/mac-gen-go/blob/master/LICENSE)
 
 ## Purpose
 
@@ -12,7 +13,7 @@ This generator can be used to create IEEE 802 conform local administered MAC add
 ## get it
 
 ```
-go get github.com/cseeger-epages/mac-gen-go
+go get github.com/c-seeger/mac-gen-go
 ```
 
 ## Usage
@@ -24,7 +25,7 @@ import (
   "fmt"
   "net"
 
-  gm "github.com/cseeger-epages/mac-gen-go"
+  gm "github.com/c-seeger/mac-gen-go"
 )
 
 func main() {
@@ -43,7 +44,8 @@ func main() {
 }
 
 ```
-see [examples](https://github.com/cseeger-epages/mac-gen-go/examples) for more information
+
+see [examples](https://github.com/c-seeger/mac-gen-go/examples) for more information
 
 ### testing and coverage
 
@@ -125,3 +127,7 @@ generating a prefix block of 3 octets
 - so in the worst case you can cut all these networks into /32 networks with only one ip address so you can have
 - up to 17891328 networks so our 2^16\*126 permutations fit about 46.15% of this worst case szenario or 23.44% when only using unicast
 
+## Contribution
+
+Thank you for participating to this project.
+Please see our [Contribution Guidlines](https://github.com/c-seeger/mac-gen-go/blob/master/CONTRIBUTING.md) for more information.
